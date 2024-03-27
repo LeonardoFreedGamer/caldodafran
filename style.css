@@ -18,3 +18,8 @@ h1{
     text-justify: auto;
     color: brown;
 }
+
+.negrito{
+  font-weight: bold;
+  color: brown;
+}
