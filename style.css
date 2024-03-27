@@ -23,3 +23,16 @@ h1{
   font-weight: bold;
   color: brown;
 }
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
