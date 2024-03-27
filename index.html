@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cardápio Responsivo</title>
-<style>
-  body { font-family: Arial, sans-serif; }
-  .menu { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0; }
-  .item { flex-basis: 100%; text-align: center; padding: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 10px 0; }
-  @media (min-width: 600px) { .item { flex-basis: calc(50% - 20px); } }
-  @media (min-width: 900px) { .item { flex-basis: calc(33.333% - 20px); } }
-  img { max-width: 100%; height: auto; }
-</style>
+<title>Cardápio Imperium Lanches</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-  <h1>Cardápio do Restaurante</h1>
-</header>
-
-<section class="menu">
-  <article class="item">
-    <img src="food.webp" alt="Prato 1">
-    <h2>Prato 1</h2>
-    <p>Descrição do Prato 1.</p>
-  </article>
-  <article class="item">
-    <img src="food.webp" alt="Prato 1">
-    <h2>Prato 2</h2>
-    <p>Descrição do Prato 2.</p>
-  </article>
-  <!-- Repita para outros pratos -->
-</section>
-
-<footer>
-  <p>Restaurante Caldo da Fran - Todos os direitos reservados.</p>
-</footer>
-
+<div class="menu">
+  <h1>Cardápio Imperium Lanches</h1>
+  <!-- Item do menu -->
+  <div class="menu-item">
+    <img src="caminho-para-sua-imagem.jpg" alt="Hambúrguer Artesanal">
+    <div>
+      <h2>Hambúrguer Artesanal</h2>
+      <p>Pão artesanal, carne 180g, queijo cheddar, alface, tomate e molho especial. R$25,00</p>
+    </div>
+  </div>
+  <!-- Outro item do menu -->
+  <div class="menu-item">
+    <img src="food.webp" alt="Baguete de Frango">
+    <div>
+      <h2>Baguete de Frango</h2>
+      <p>Baguete fresca, frango desfiado, maionese, alface e tomate. R$18,00</p>
+    </div>
+  </div>
+  <!-- Adicione mais itens conforme necessário -->
+</div>
 </body>
 </html>
