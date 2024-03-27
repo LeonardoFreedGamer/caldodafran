@@ -36,3 +36,14 @@ h1{
 .whatsapp-button:hover {
   background-color: #128c7e;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
