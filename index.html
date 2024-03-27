@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio Responsivo</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .menu { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0; }
+  .item { flex-basis: 100%; text-align: center; padding: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 10px 0; }
+  @media (min-width: 600px) { .item { flex-basis: calc(50% - 20px); } }
+  @media (min-width: 900px) { .item { flex-basis: calc(33.333% - 20px); } }
+  img { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Cardápio do Restaurante</h1>
+</header>
+
+<section class="menu">
+  <article class="item">
+    <img src="food.webp" alt="Prato 1">
+    <h2>Prato 1</h2>
+    <p>Descrição do Prato 1.</p>
+  </article>
+  <!-- Repita para outros pratos -->
+</section>
+
+<footer>
+  <p>Restaurante XYZ - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
